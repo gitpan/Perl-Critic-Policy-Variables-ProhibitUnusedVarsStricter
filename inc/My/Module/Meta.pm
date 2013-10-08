@@ -9,7 +9,7 @@ use Carp;
 
 use base qw{ Exporter };
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 our @EXPORT_OK = qw{
     build_required_module_versions
@@ -24,9 +24,9 @@ sub required_module_versions {
         'base'                      => 0,
         'strict'                    => 0,
         'warnings'                  => 0,
-        'Perl::Critic::Document'    => 0,
-        'Perl::Critic::Policy'      => 0,
-        'Perl::Critic::Utils'       => 0,
+        'Perl::Critic::Document'    => 1.119,   # need 1.119 here
+        'Perl::Critic::Policy'      => 1.119,
+        'Perl::Critic::Utils'       => 1.119,
         'PPI::Token::Symbol'        => 0,
         'Readonly'                  => 0,
         'Scalar::Util'              => 0,
