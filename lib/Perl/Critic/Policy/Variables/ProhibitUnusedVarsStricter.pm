@@ -21,7 +21,7 @@ use Perl::Critic::Utils qw< :booleans :characters hashify :severities >;
 
 use base 'Perl::Critic::Policy';
 
-our $VERSION = '0.002';
+our $VERSION = '0.002_01';
 
 #-----------------------------------------------------------------------------
 
@@ -758,7 +758,7 @@ Thomas R. Wyant, III F<wyant at cpan dot org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2012-2013 Thomas R. Wyant, III
+Copyright (C) 2012-2014 Thomas R. Wyant, III
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl 5.10.0. For more details, see the full text

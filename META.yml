@@ -3,14 +3,14 @@ abstract: 'Critique unused variables in Perl source'
 author:
   - 'Thomas R. Wyant, III (wyant at cpan dot org)'
 build_requires:
-  Carp: 0
-  lib: 0
+  Carp: '0'
+  lib: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132661'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter
 no_index:
   directory:
@@ -24,22 +24,22 @@ no_index:
 provides:
   Perl::Critic::Policy::Variables::ProhibitUnusedVarsStricter:
     file: lib/Perl/Critic/Policy/Variables/ProhibitUnusedVarsStricter.pm
-    version: 0.002
+    version: 0.002_01
 recommends:
-  File::Which: 0
-  Readonly::XS: 0
+  File::Which: '0'
+  Readonly::XS: '0'
 requires:
-  PPI::Token::Symbol: 0
-  Perl::Critic::Document: 1.119
-  Perl::Critic::Policy: 1.119
-  Perl::Critic::Utils: 1.119
-  Readonly: 0
-  Scalar::Util: 0
-  base: 0
-  perl: 5.006001
-  strict: 0
-  warnings: 0
+  PPI::Token::Symbol: '0'
+  Perl::Critic::Document: '1.119'
+  Perl::Critic::Policy: '1.119'
+  Perl::Critic::Utils: '1.119'
+  Readonly: '0'
+  Scalar::Util: '0'
+  base: '0'
+  perl: '5.006001'
+  strict: '0'
+  warnings: '0'
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter
   license: http://dev.perl.org/licenses/
-version: 0.002
+version: 0.002_01

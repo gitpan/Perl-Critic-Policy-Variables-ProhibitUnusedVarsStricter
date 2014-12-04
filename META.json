@@ -4,7 +4,7 @@
       "Thomas R. Wyant, III (wyant at cpan dot org)"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132661",
+   "generated_by" : "Module::Build version 0.421",
    "license" : [
       "perl_5"
    ],
@@ -54,10 +54,10 @@
    "provides" : {
       "Perl::Critic::Policy::Variables::ProhibitUnusedVarsStricter" : {
          "file" : "lib/Perl/Critic/Policy/Variables/ProhibitUnusedVarsStricter.pm",
-         "version" : "0.002"
+         "version" : "0.002_01"
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter"
@@ -66,5 +66,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.002"
+   "version" : "0.002_01"
 }
